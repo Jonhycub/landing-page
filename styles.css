@@ -7,6 +7,7 @@
   display: flex;
 }
 
+/* First section */
 .container.one{
   background-color: #1f2937;
   color: white;
@@ -18,7 +19,7 @@
   align-items: center;
   margin: 0 120px;
 }
-h4{
+.header-logo{
   flex-grow: 1;
   justify-content: center;
   font-size: 24px;
@@ -62,12 +63,13 @@ h4{
 .sign-up-button{
   color: white;
   background-color: #3882F6;
-  width: 100px;
+  width: 120px;
   height: 30px;
   border-radius: 8px;
   border: 0px;
 }
 
+/* Second section */
 .container.two{
   flex-direction: column;
   margin: 40px 120px;
@@ -96,16 +98,68 @@ h4{
   color: #606060;
 }
 
+/*Third Section */
+.container.three{
+  flex-direction: column;
+  background-color: #e2e2e2;
+}
+.quote{
+  margin: 40px 160px 0px 160px;
+  font-size: 32px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.quote-author{
+  margin: 0 120px 40px 120px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Fourth Section */
+.container.four{
+  margin: 40px 160px;
+  background-color: #3882F6;
+  border-radius: 12px;
+  color: white;
+}
+.call-to-action{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px 160px;
+  flex-grow: 1;
+}
+.call-to-action-header{
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.call-to-action-text{
+  margin-top: 0;
+}
+.test{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 160px;
+}
+.call-to-action-button{
+  color: white;
+  background-color: #3882F6;
+  width: 120px;
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
 
 
-
-
-
+/* Footer */
 footer{
   background-color: #1f2937;
   color: white;
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 12px;
+  height: 50px;
 }
